@@ -1,0 +1,11 @@
+﻿"escala" = 1                        'projeto - escala geral
+"arma_eixo-furo_folga" = 4          'arma - folga entre furo arma e eixo
+"escala_disco-arma"= "escala" * 1   'disco arma - escala geometria disco arma
+"arma_rebaixo-camisa_b"= 1          'disco arma - profundidade rebaixo camisa
+"arma-espessura"= 15                'disco arma - espessura disco arma
+"rolamento_D-ext"= 1                'rolamento arma - diametro externo
+"rolamento_d-int"= 1                'rolamento arma - diametro interno
+"rolamento_b-esp"= 1                'rolamento arma - espessura
+"eixo_diam"= 18                     'eixo arma - diametro
+"camisa_largura"=40                 'camisa arma - tamanho do lado
+"camisa_raio"=10                    'camisa arma - raio canto interno
