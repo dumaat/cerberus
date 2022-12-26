@@ -1,0 +1,4 @@
+﻿"escala" = 1
+"escala_disco-arma"= "escala" * 1
+"arma_b_rebaixo_camisa"= 1
+"arma_l_rebaixo_camisa"= 1
