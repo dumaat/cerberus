@@ -10,4 +10,5 @@
 "eixo_diam"= "rolamento_d-int"                          'eixo arma - diametro
 "camisa_largura"=110                                    'camisa arma - tamanho do lado
 "camisa_raio"=15                                        'camisa arma - raio canto interno
-"camisa_rebaixo_rolamento" = 1 * "rolamento_b-esp"      
+"camisa_rebaixo_rolamento" = 1 * "rolamento_b-esp"     
+"polia_diam_eff" = 150 
