@@ -1,16 +1,56 @@
-﻿"escala" = 1                                            'projeto - escala geral
-"escala_disco-arma"= 2.9                               'disco arma - escala geometria disco arma
-"arma_eixo-furo_folga" = 4                              'arma - folga entre furo arma e eixo
-"arma_rebaixo-camisa_raio" = 16      'raio do rebaixo da camisa da arma 
-"arma_rebaixo-camisa_b"= "rolamento_b-esp" + ("arma-espessura"-"rolamento_b-esp")/2        'disco arma - profundidade rebaixo camisa
-"arma-espessura"= 50                                    'disco arma - espessura disco arma
-"rolamento_D-ext"= 85                                   'rolamento arma - diametro externo
-"rolamento_d-int"= 45                                   'rolamento arma - diametro interno
-"rolamento_b-esp"= 23                                   'rolamento arma - espessura
-"eixo_diam"= "rolamento_d-int"                          'eixo arma - diametro
-"camisa_largura"=115                                    'camisa arma - tamanho do lado
-"camisa_raio"=5                                        'camisa arma - raio canto interno
-"camisa_rebaixo_rolamento" = 1 * "rolamento_b-esp"
-"camisa_comprimento-centro" = 2*("arma_rebaixo-camisa_b")+"polia_espessura"   
-"polia_espessura" = 40  
-"polia_diam_eff" = 142
+﻿"escala"= 1                        'projeto - escala geral
+
+"escala_disco-arma"= 3                                                                  'disco arma - escala geometria disco arma
+
+"arma_eixo-furo_folga"= 4                                                              'disco arma - folga entre furo arma e eixo
+
+"arma_rebaixo-camisa_raio"= 12                                                         'disco arma - raio do rebaixo da camisa da arma 
+
+"arma_rebaixo-camisa_b"= "rolamento_b-esp" + ("arma-espessura"-"rolamento_b-esp")/2     'disco arma - profundidade rebaixo camisa
+
+"arma-espessura"= 50                                                                    'disco arma - espessura disco arma
+
+"rolamento_D-ext"= 85               'rolamento arma - diametro externo
+
+"rolamento_D1-ext"= 75             'rolamento arma - ressalto diam externo
+
+"rolamento_d-int"= 45               'rolamento arma - diametro interno
+
+"rolamento_d2-int"= 54             'rolamento arma - ressalto diam interno
+
+"rolamento_b-esp"= 23               'rolamento arma - espessura
+
+"eixo-arm_diam"= "rolamento_d-int"                                                                'eixo arma - diametro
+
+"eixo-arm_folga_mancal-arma"= 10
+
+"eixo-arm_allowable-movement"= 1
+
+"eixo-arm_comp-entre-mancais"= 2*"eixo-arm_folga_mancal-arma" + 2*"arma-espessura" + "polia_espessura"    'eixo arma - comprimento entre mancais
+
+"eixo-arm_comp-espacador"= "eixo-arm_folga_mancal-arma" + "arma-espessura"-"arma_rebaixo-camisa_b" - "eixo-arm_allowable-movement"/2
+
+"eixo-arm_prof-furo-fix"= 30
+
+"mancal-arm_rebaixo-eixo_profundidade"= 20
+
+"mancal-arm_rebaixo-eixo_diametro"= 2 * "eixo-arm_diam" - "rolamento_d2-int"
+
+"camisa_largura"=115                                                        'camisa arma - tamanho do lado
+
+"camisa_raio"= 16                                                           'camisa arma - raio canto interno
+
+"camisa_raio-alivio"= 6                                                    'camisa arma - raio de alivio de tensoes no encaixe da arma
+
+"camisa_rebaixo_rolamento"= 1 * "rolamento_b-esp"
+
+"camisa_comprimento-centro"= 2*("arma_rebaixo-camisa_b")+"polia_espessura" 
+
+"camisa_furos_dist"= 83
+
+"camisa_furos_prof"= 30
+
+"polia_espessura"= 40  
+
+"polia_diam_eff"= 142
+
